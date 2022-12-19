@@ -1,7 +1,9 @@
 import React from 'react'
 import AdBanner from '../components/AdBanner'
+import AvailableCard from '../components/AvailableCard'
 import Banner from '../components/Banner'
 import BannerCarousel from '../components/BannerCarousel'
+import Footer from '../components/Footer'
 import InfoCard from '../components/InfoCard'
 import MainHeader from '../components/MainHeader'
 import NewsLetter from '../components/NewsLetter'
@@ -19,6 +21,8 @@ function Homepage() {
      <AdBanner />
      <InfoCard />
      <NewsLetter />
+     <AvailableCard />
+     <Footer />
     </div>
   )
 }
