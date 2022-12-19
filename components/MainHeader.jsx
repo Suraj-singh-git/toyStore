@@ -18,9 +18,9 @@ function MainHeader() {
             <img src="https://cdn.shopify.com/s/files/1/0696/9637/files/Logo-Shumee_400x.png?v=1613715368" alt="logo" className='h-20' />
         </div>
         <div className="flex gap-2">
-        <div className="dropdown dropdown-hover dropdown-end">
-        <label tabIndex={0} className="btn bg-transparent">Account</label>
-        <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+        <div className="dropdown dropdown-hover">
+        <label tabIndex={0} className="btn bg-transparent hover:bg-transparent border-none text-black">Account</label>
+        <ul tabIndex={0} className="dropdown-content menu shadow  rounded-box w-52">
     <li><a>Login</a></li>
     <li><a>Create Account</a></li>
   </ul>
