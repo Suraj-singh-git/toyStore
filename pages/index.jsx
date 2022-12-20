@@ -6,6 +6,7 @@ import BannerCarousel from '../components/BannerCarousel'
 import Footer from '../components/Footer'
 import InfoCard from '../components/InfoCard'
 import MainHeader from '../components/MainHeader'
+import Navbar from '../components/Navbar'
 import NewsLetter from '../components/NewsLetter'
 import Section from '../components/Section'
 import Section2 from '../components/Section2'
@@ -15,6 +16,7 @@ function Homepage() {
     <div>
      <Banner />
      <MainHeader />
+     <Navbar />
      <BannerCarousel />
      <Section />
      <Section2 />
